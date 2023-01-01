@@ -7,3 +7,5 @@ plt.bar(x_values, y_values)
 plt.plot()
 
 plt.show()
+
+print("end")
