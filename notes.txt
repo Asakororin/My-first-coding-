@@ -1,0 +1,24 @@
+## Uploading stuff to github:
+
+right click in an empty area in the folder, use "git bash" option.
+use "git status" to understand the state of your repository
+use "git add" to add changes to be saved on github
+use "git commit" to save your changes
+use "git push" to upload your changes
+
+
+
+
+
+## Installing Libraries:
+If you get an error that looks like this:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'badlib'
+
+you will need to install the missing library using 'pip'
+
+the syntax is:
+
+$ py -m pip install badlib
